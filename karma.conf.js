@@ -6,5 +6,10 @@ module.exports = function(config) {
     preprocessors: {
          'test.js': [ 'browserify' ]
     },
+    plugins: [
+      'karma-browserify',
+      'karma-chrome-launcher',
+      'karma-mocha'
+    ],
   });
 };
