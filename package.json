@@ -1,0 +1,30 @@
+{
+  "name": "drone-karma-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanmshelly/drone-karma-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanmshelly/drone-karma-test/issues"
+  },
+  "homepage": "https://github.com/alanmshelly/drone-karma-test#readme",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "browserify": "^13.0.0",
+    "k": "^0.3.0",
+    "karma": "^0.13.19",
+    "karma-browserify": "^5.0.1",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.1",
+    "mocha": "^2.4.5",
+    "watchify": "^3.7.0"
+  }
+}
